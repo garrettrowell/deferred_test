@@ -1,0 +1,2 @@
+<%- | Optional[String] $response_string = undef | -%>
+the response was '<%= $response_string -%>'
