@@ -5,7 +5,7 @@
 # @example
 #   include deferred_test
 class deferred_test {
-  $response = { 'response_string' => Deferred('deferred_test::api')}
+  $response = { 'response_string' => Deferred('deferred_test::api') }
 
   $response_result = stdlib::deferrable_epp('deferred_test/api_response.epp', $response)
 

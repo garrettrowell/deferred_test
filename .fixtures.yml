@@ -3,5 +3,9 @@
 ---
 fixtures:
   forge_modules:
-    stdlib: "puppetlabs/stdlib"
-    echo: "ipcrm-echo"
+    stdlib:
+      repo: 'puppetlabs/stdlib'
+      ref: '9.7.0'
+    echo:
+      repo: 'ipcrm-echo'
+      ref: '0.1.8'

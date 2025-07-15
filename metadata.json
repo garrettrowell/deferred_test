@@ -6,7 +6,14 @@
   "license": "Apache-2.0",
   "source": "",
   "dependencies": [
-
+    {
+      "name": "puppetlabs/stdlib",
+      "version_requirement": "9.7.0"
+    },
+    {
+      "name": "ipcrm/echo",
+      "version_requirement": "0.1.8"
+    }
   ],
   "operatingsystem_support": [
     {
